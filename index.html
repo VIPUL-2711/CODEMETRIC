@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODEMETRIC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>CODEMETRIC</h1>
+
+    <div class="user-container">
+        <p>Enter your LeetCode username</p>
+        <div class="input-field">
+            <input type="text" id="place" placeholder="Username">
+            <button id="search">Search</button>
+        </div>
+    </div>
+
+    <div class="state-container">
+        <div class="progress">
+
+            <div class="circle">
+                <div class="easy-problem">
+                    <span id="easy">0</span>
+                    <div id="easy-ratio">0/0</div>
+                    Easy
+                </div>
+            </div>
+
+            <div class="circle">
+                <div class="medium-problem">
+                    <span id="medium">0</span>
+                    <div id="medium-ratio">0/0</div>
+                    Medium
+                </div>
+            </div>
+
+            <div class="circle">
+                <div class="hard-problem">
+                    <span id="hard">0</span>
+                    <div id="hard-ratio">0/0</div>
+                    Hard
+                </div>
+            </div>
+
+        </div>
+
+        <div class="stats-card"></div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
